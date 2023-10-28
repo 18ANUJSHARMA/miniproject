@@ -1,0 +1,119 @@
+/* section{
+    background: url(https://media.istockphoto.com/id/1192236158/photo/explosion-of-colored-powder-on-black-background.webp?b=1&s=170667a&w=0&k=20&c=KFwnKKJ7-Sm-SiYI-aB6IQDeQTSMWQfFWPS9PvGZZu4=) no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+} */
+body{
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+section > h1{
+    color: #fff;
+    text-align: center;
+    margin: 1rem 0;
+    font-size: 2.5rem;
+}
+
+.pricing-cards{
+     display: flex;
+     justify-content: space-evenly;
+     flex-wrap: wrap;
+     padding: 2rem;
+
+}
+
+.pricing-card{
+    background-color: #fff;
+    border-radius: 40px;
+    text-align: center;
+    margin: 1rem;
+    width: 275px;
+    min-height: 400px;
+    padding: 1rem 0.75rem;
+    box-shadow: 1px 2px 10px 1px #333;
+    
+}
+.pricing-card .plan{
+    font-size: 2rem;
+    
+}
+
+
+.pricing-card .description{
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.pricing-card > a{
+    background-color: blue;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 5px;
+    transition: 0.7s ease-in-out;
+}
+.pricing-card > a:hover{
+    background-color: orangered;
+}
+
+.pricing-card .price{
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 10px 0;
+    margin-top: 1.5rem;
+}
+
+.pricing-card .price span{
+    
+    font-size: 1rem;
+   
+}
+
+.pricing-card ul{
+    text-align: left;
+    padding: 0 1rem;
+}
+
+.pricing-card ul li{
+    font-size: 0.9rem;
+    list-style-type: circle;
+    padding-top: 5px;
+}
+
+
+.anuj{
+    color: grey;
+}
+
+.going:hover{
+    color: orangered;
+}
+
+html{ 
+    scroll-behavior : smooth ;
+} 
+.totop { 
+    position : fixed ; 
+    bottom : 10px ; 
+    right : 10px ; 
+    background-color : #FFBF00 ; 
+    padding : 20px ; 
+    border-radius : 20px ;
+}

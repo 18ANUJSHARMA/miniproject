@@ -1,0 +1,201 @@
+section{
+    background: url(https://img.freepik.com/premium-photo/black-calathea-lutea-patterned-background_53876-144275.jpg?w=360) no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+@font-face {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    src: url();
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0c52a1;
+}
+
+.profile-card{
+    position: relative;
+    width: 220px;
+    height: 220px;
+    background: white;
+    padding: 30px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px #333633;
+    transition: 0.7s;
+    margin: 0 25px;
+    padding: 2rem;
+    flex-wrap: wrap;
+}
+.profile-card:hover{
+    border-radius: 10px;
+    height: 260px;
+}
+.profile-card .img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: 0.7s;
+    z-index: 99;
+}
+.profile-card:hover .img{
+    transform: translateY(-80px);
+}
+
+.img img{
+    width:100%;
+    border-radius: 50%;
+    box-shadow: 0 0 20px #333633;
+    transition: 0.7s;
+}
+.profile-card:hover img{
+    border-radius: 10px;
+}
+
+.caption{
+    text-align: center;
+    transform: translateY(-80px);
+    opacity: 0;
+    transition: 0.7s;
+}
+.profile-card:hover .caption{
+    opacity: 1;
+
+}
+.caption h3{
+    font-size: 18px;
+}
+.caption p{
+    font-size: 18px;
+    color: #0c52a1;
+    margin: 2px 0  6px 0;
+}
+.caption .social-links{
+    color: black;
+    margin-right: 8px;
+    font-size: 18px;
+    transition: 0.7s;
+}
+.social-links a:hover{
+    color: #0c52a1;
+} */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bellota Text', cursive;
+ }
+ body
+ {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background: #f2f3f7;
+ }
+ .container
+ {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+ }
+ .container .card
+ {
+    width: 330px;
+    height: 416px;
+    padding: 60px 30px;
+    margin: 20px;
+    background: #f2f3f7;
+    box-shadow: 0.6em 0.6em 1.2em #e8e9d2,
+                -0.5em -0.5em 1em #ffffff;
+    border-radius: 20px;
+ }
+ .container .card .content
+ {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ }
+ .container .card .content .imgBx
+ {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    position: relative;
+    margin-bottom: 20px;
+    overflow: hidden;
+ }
+ .container .card .content .imgBx img
+ {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+ }
+ .container .card .content .contentBx h4
+ {
+    color: #36187d;
+    font-size: 1.7rem;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1px;
+ }
+ .container .card .content .contentBx h5
+ {
+    color: #6c758f;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+ }
+ .container .card .content .sci
+ {
+    margin-top: 20px;
+ }
+ .container .card .content .sci a
+ {
+    text-decoration: none;
+    color: #6c758f;
+    font-size: 30px;
+    margin: 10px;
+    transition: color 0.4s;
+ }
+ .container .card .content .sci a:hover
+ {
+    color: #0196e3;
+ }
+
+ 
+
+ 
+ html{ 
+    scroll-behavior : smooth ;
+} 
+.totop { 
+    position : fixed ; 
+    bottom : 10px ; 
+    right : 10px ; 
+    background-color : white ; 
+    padding : 20px ; 
+    border-radius : 20px ;
+}
+.totop:hover{
+    background-color: #ffffff;
+    box-shadow: 0rem 1rem 2rem 1rem white
+                -1rem 0.1rem 1rem 1rem white;
+}
